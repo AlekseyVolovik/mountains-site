@@ -16,7 +16,6 @@ body{
 /*---header---*/
 
 .background-section{
-	
 	background-image: url(img/BG.jpg);
 	background-size: 100% auto;
 	background-repeat: no-repeat;
@@ -25,10 +24,6 @@ body{
 .header{
 	padding-top: 64px;
 	margin-bottom: 198px;
-}
-
-.container{
-
 }
 
 .container-header{
