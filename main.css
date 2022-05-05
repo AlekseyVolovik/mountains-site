@@ -10,13 +10,17 @@ body{
 	margin: 0;
 	font-family: 'Gilroy';
 	background-color: #0B1D26;
-	background-image: url(img/BG.jpg);
-	background-size: 100% auto;
-	background-repeat: no-repeat;
 	color: #FFFFFF;
 }
 
 /*---header---*/
+
+.background-section{
+	
+	background-image: url(img/BG.jpg);
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
 
 .header{
 	padding-top: 64px;
@@ -24,7 +28,7 @@ body{
 }
 
 .container{
-	box-shadow: 15px -50px 50px 50px #0b1d26;
+
 }
 
 .container-header{
@@ -193,6 +197,10 @@ body{
 
 /*---section---*/
 
+.section{
+	padding-bottom: 300px;
+}
+
 .container-section{
 	margin: 0 auto;
 	max-width: 1492px;
@@ -272,7 +280,8 @@ body{
 /*---main---*/
 
 .main{
-	padding-top: 250px;
+	padding-top: 100px;
+	box-shadow: 15px -50px 50px 50px #0b1d26;
 }
 
 .container{
