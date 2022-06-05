@@ -268,6 +268,7 @@ body{
 	top: 50%;
 	transform: translateY(-50%);
 	background-image: url(img/arrow.svg);
+	background-repeat: no-repeat;
 	width: 16px;
 	height: 24px;
 }
@@ -301,7 +302,7 @@ body{
 
 .acticle-text{
 	padding-left: 150px;
-	max-width: 782px;
+	max-width: 780px;
 	position: relative;
 }
 

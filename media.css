@@ -1,3 +1,18 @@
+@media (max-width: 1440px){
+	.section {
+    	padding-bottom: 240px;
+	}
+
+	.header {
+		padding-top: 38px;
+		margin-bottom: 174px;
+	}
+
+	.footer {
+		padding-bottom: 65px;
+	}
+}
+
 @media (max-width: 1200px){
 	.hero-title{
 		font-size: 68px;
@@ -10,10 +25,21 @@
 
 	.acticle{
 		justify-content: center;
+		margin-bottom: 90px;
+	}
+
+	.acticle-text{
+		margin-bottom: 20px;
 	}
 
 	.section {
-    	margin-bottom: 394px;
+    	margin-bottom: 0;
+		padding-bottom: 180px;
+	}
+
+	.header{
+		padding-top: 20px;
+		margin-bottom: 125px;
 	}
 }
 
@@ -37,23 +63,135 @@
 	.section{
 		margin-bottom: 480px
 	}
+
+	.footer-nav{
+		width: 50%;
+	}
+
+	.footer-nav:last-child {
+		margin-left: 6px;
+	}
+
+	.img {
+		width: 420px;
+	}
+
+
 }
 
 @media (max-width: 768px){
 	.header{
-		margin-bottom: 102px;
+		margin-bottom: 73px;
+	}
+
+	.section {
+		margin-bottom: 0;
+		padding-bottom: 130px;
+	}
+
+	.footer-row{
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.footer-copyright__text{
+		margin: 0 auto;
+	}
+
+	.footer-copyright{
+		margin-top: 20px;
 	}
 }
 
 @media (max-width: 426px){
 	.header{
-		margin-bottom: 47px;
+		margin-bottom: 12px;
+		padding-top: 5px;
 	}
+
+	.footer-row{
+		flex-direction: column-reverse;
+		text-align: center;
+	}
+
+	.img{
+		width: 320px;
+	}
+
+	.footer-nav:last-child {
+		margin-left: 175px;
+	}
+
+	.acticle-text{
+		padding-left: 0;
+	}
+
+	.footer-copyright{
+		margin-top: 20px;
+	}
+
+	.footer-copyright__text{
+		margin: 0 auto;
+	}
+
+	.mobile-nav{
+		z-index: 1;
+		background-color: black;
+	}
+
+	.logo {
+		font-size: 20px;
+	}
+
+	.hero-category{
+		font-size: 13px;
+	}
+
+	.hero-title {
+		font-size: 35px;
+	}
+
+	.section {
+		padding-bottom: 58px;
+	}
+
+	.hero-scroll{
+		font-size: 13px;
+	}
+
+	.acticle-subtitle {
+		font-size: 13px;
+	}
+
+	.acticle-title {
+		font-size: 46px;
+	}
+
+	.acticle p{
+		font-size: 15px;
+	}
+
+	.acticle:last-child{
+		margin-bottom: 25px;
+	}
+
+	.footer {
+		padding-bottom: 30px;
+	}
+
+	.footer-nav{
+		width: 50%;
+	}
+
+	.footer-nav:last-child {
+		margin-left: 6px;
+	}
+
 }
 
 @media (max-width: 320px){
 	.hero-title{
-		font-size: 35px;
+		font-size: 31px;
 	}
 
 	.hero-scroll{
@@ -61,7 +199,7 @@
 	}
 
 	.header{
-		padding-top: 28px;
+		padding-top: 10px;
 	}
 
 	.hero-category::before{
@@ -72,4 +210,22 @@
 		font-size: 9px;
 		padding-left: 68px;
 	}
+
+	.hero-category{
+		display: none;
+	}
+
+	.hero-scroll{
+		display: none;
+	}
+
+	.main{
+		padding-top: 47px;
+	}
+
+	.acticle-title {
+		font-size: 36px;
+	}
+	
+	
 }
